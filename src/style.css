@@ -1,7 +1,31 @@
+/* style.css - login_signup_form_01 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, san-serif;
   font-size: 16px;
+}
+
+:root {
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+div.container {
+  border: 1px solid MediumVioletRed;
+}
+
+label > i {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2px;
 }
