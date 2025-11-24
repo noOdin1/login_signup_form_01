@@ -15,6 +15,45 @@
       <div class="signup_title section" id="signupTitle">
         <h1>Signup</h1>
       </div>
+
+      <form class="signup_form section" id="signupForm">
+        <div class="signup_input username text card " id="usernameInput">
+          <input type="text" name="username" placeholder="username" required></input>
+          <label for="username">
+            <i class="fa-solid fa-user"></i>
+          </label>
+        </div>
+        <div class="signup_input email text card" id="emailInput">
+          <input type="email" name="email" placeholder="email" required></input>
+          <label for="email">
+            <i class="fa-regular fa-envelope"></i>
+          </label>
+        </div>
+        <div class="signup_input password text card" id="password">
+          <input type="password" name="password" placeholder="password" required></input>
+          <label for="password">
+            <i class="fa-solid fa-lock"></i>
+          </label>
+        </div>
+        <div class="signup_input password_confirm text card" id="password_confirm">
+          <input type="password" name="passwordConfirm" placeholder="confirm password" required></input>
+          <label for="passwordConfirm">
+            <i class="fa-solid fa-lock"></i>
+          </label>
+        </div>
+
+        <div class="signup_button section card" id="submitButtonCard">
+          <button type="submit">Signup</button>
+          <p class="submit_button_para prompt convince" id="convincingStatement">
+            Start your adventure today
+          </p>
+        </div>
+      </form>
+      <div class="signup_switch_section member prompt" id="signupPromptSection">
+        <p class="para text" id="memberPromptPara">
+          Already a member?
+          <a class="text link" id="loginLink" href="#">Login</a>
+        </p>
       </div>
     </div>
       </div>
