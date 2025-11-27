@@ -167,3 +167,19 @@ button {
   box-shadow: 1px 1px 3px 2px;
 }
 
+#convincingStatement,
+#greetingStatement {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+#convincingStatement {
+  padding: 0.8em 1em;
+}
+
+#greetingStatement {
+  padding: 0.8em 0.6em;
+}
+
