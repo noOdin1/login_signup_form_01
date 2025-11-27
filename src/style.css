@@ -32,8 +32,25 @@ h1 {
   color: var(--textColor);
 }
 
-div.container {
-  border: 1px solid MediumVioletRed;
+.content.container {
+  margin: auto;
+  width: var(--contentContainerWidth);
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(105, 205, 205, 0.9) 1%,
+    rgba(105, 205, 205, 0.95) 50%,
+    rgba(105, 205, 205, 0.9) 99%,
+    var(--bgColor_seethru) 100%
+  );
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
 }
 
 label > i {
