@@ -19,9 +19,12 @@
 }
 
 body {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  background-image: url("starline_Freepik_17973904.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: min(1440px, 100%);
+  overflow: hidden;
 }
 
 h1 {
