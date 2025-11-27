@@ -112,11 +112,11 @@ h1 {
 }
 
 label > i {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border: none;
   padding: 2px;
-  margin-right: -5px;
+  font-size: 1.8em;
+  margin: 0.2em;
+  margin-top: 0.3em;
 }
 
 .left.signup.container {
