@@ -70,6 +70,14 @@ h1 {
                              contents 'shrink' to zero size */
 }
 
+.signup.hide {
+  width: 0%;
+  height: 100%;
+  padding: 0em;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
 label > i {
   border-top: 1px solid black;
   border-left: 1px solid black;
