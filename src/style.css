@@ -139,3 +139,10 @@ input:hover:not(:focus) {
   box-shadow: 2px 2px 3px 2px;
 }
 
+.signup_input {
+  padding: 0.2em;
+  margin: 0.2em;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
