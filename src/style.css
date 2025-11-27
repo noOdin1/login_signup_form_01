@@ -105,6 +105,12 @@ h1 {
   transition-timing-function: ease-in-out;
 }
 
+.signup_title.section {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 0.6em;
+}
+
 label > i {
   border-top: 1px solid black;
   border-left: 1px solid black;
