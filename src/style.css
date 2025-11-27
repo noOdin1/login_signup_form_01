@@ -183,3 +183,11 @@ button {
   padding: 0.8em 0.6em;
 }
 
+/* #memberPromptPara, */
+#loginLink,
+#signupLink {
+  font-size: 1.2em;
+  /* color: var(--textColor); */
+  color: black;
+}
+
