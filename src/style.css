@@ -198,3 +198,11 @@ button {
   padding-right: 0.5em;
 }
 
+.login_button {
+  display: flex;
+  flex-direction: row;
+}
+
+.login_switch_section {
+  padding-left: 0.8em;
+}
