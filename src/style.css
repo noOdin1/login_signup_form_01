@@ -9,6 +9,13 @@
 }
 
 :root {
+  --bgColor_seethru: rgba(0, 0, 0, 0);
+  /* --textColor: #f55f5f; */
+  --textColor: #b91818;
+  --contentContainerWidth: 66%;
+  --cssBoxGuide01: 1px solid MediumVioletRed;
+  --cssBoxGuide02: 1px solid blue;
+  --cssBoxGuide03: 1px solid green;
 }
 
 body {
