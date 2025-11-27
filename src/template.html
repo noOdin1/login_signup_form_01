@@ -62,12 +62,28 @@
         <h1>Login</h1>
       </div>
 
+      <form class="login_form section" id="loginForm">
+        <div class="login_input username text card" id="usernameInput">
+          <label for="username">
+            <i class="fa-solid fa-user"></i>
+          </label>
+          <input type="text" name="username" placeholder="username" required></input>
+        </div>
+        <div class="login_input password text card" id="password">
+          <label for="password">
+            <i class="fa-solid fa-lock"></i>
+          </label>
+          <input type="password" name="password" placeholder="password" required></input>
+        </div>
+        <div class="login_button section card" id="submitButtonContainer">
+          <p class="login_button_para prompt convince" id="greetingStatement">
+            Welcome back!
+          </p>
+          <button type="submitBtn">Login</button>
+        </div>
+      </form>
+
       </div>
-    </form>
-    <div class="member prompt container" id="memberPromptContainer">
-      <p class="para text" id="memberPromptPara">Already a member?
-        <a class="text link" id="loginLink" href="#">Login</a>
-      </p>
     </div>
   </div>
 </body>
