@@ -53,6 +53,23 @@ h1 {
   gap: 0;
 }
 
+.signup {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  /* transform: translateX(100%); */
+  transition-property: width, opacity, transform;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+  box-sizing: border-box; /* This is necessary to have the 
+                             contents 'shrink' to zero size */
+}
+
 label > i {
   border-top: 1px solid black;
   border-left: 1px solid black;
