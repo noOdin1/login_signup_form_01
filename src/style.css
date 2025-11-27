@@ -78,6 +78,18 @@ h1 {
   transform: translateX(-100%);
 }
 
+.login.hide {
+  width: 0%;
+  height: 100%;
+  opacity: 0;
+  padding: 0;
+  transform: translate(100%);
+  transition-property: opacity, transform, width;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+}
+
 label > i {
   border-top: 1px solid black;
   border-left: 1px solid black;
