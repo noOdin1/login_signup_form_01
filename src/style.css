@@ -29,6 +29,7 @@ body {
 
 h1 {
   font-size: 5em;
+  color: var(--textColor);
 }
 
 div.container {
