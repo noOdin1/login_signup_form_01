@@ -90,6 +90,21 @@ h1 {
   transition-timing-function: ease-in-out;
 }
 
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  padding: 2em;
+  box-sizing: border-box;
+  transition-property: opacity, transform, width;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+}
+
 label > i {
   border-top: 1px solid black;
   border-left: 1px solid black;
