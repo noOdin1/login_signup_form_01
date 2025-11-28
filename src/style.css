@@ -129,6 +129,10 @@ input {
   border-radius: 5px;
 }
 
+/* Styling when mouse hovers over the input box */
+input:hover {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px 2px;
 }
 
 input:hover:not(:focus) {
