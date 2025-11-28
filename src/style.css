@@ -140,6 +140,9 @@ div:has(input:focus) > label {
   color: var(--textColor);
 }
 
+/* Input box styling when it has focus, consistent with hover */
+div:has(input:focus) > input {
+  outline: none;
   border: 1px solid black;
   box-shadow: 2px 2px 3px 2px;
 }
