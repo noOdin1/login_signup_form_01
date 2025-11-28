@@ -168,10 +168,18 @@ div:has(input:focus) > input {
 button {
   font-size: 1.5em;
   font-weight: 600;
+  color: var(--textColor);
   padding: 0.2em 0.5em;
   border-radius: 0.5em;
   margin: 0.5em 0;
   border: 2px solid black;
+  /* box-shadow: 1px 1px 3px 2px; */
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+}
+
   box-shadow: 1px 1px 3px 2px;
 }
 
