@@ -135,7 +135,11 @@ input:hover {
   box-shadow: 2px 2px 3px 2px;
 }
 
-input:hover:not(:focus) {
+/* Change label color when the input box has focus */
+div:has(input:focus) > label {
+  color: var(--textColor);
+}
+
   border: 1px solid black;
   box-shadow: 2px 2px 3px 2px;
 }
