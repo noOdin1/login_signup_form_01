@@ -32,7 +32,8 @@
           </label>
         </div>
         <div class="signup_input text card" id="password">
-          <input type="password" name="password" placeholder="password" required></input>
+          <input type="password" id="passwordInput" name="password" placeholder="Password"
+            pattern="/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?!.*\W)(?!.* ).{8,16}$/" required></input>
           <label for="password">
             <i class="fa-solid fa-lock"></i>
           </label>
