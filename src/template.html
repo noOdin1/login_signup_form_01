@@ -18,7 +18,8 @@
 
       <form class="signup_form section" id="signupForm">
         <div class="signup_input text card " id="usernameInput">
-          <input type="text" name="username" placeholder="username" required></input>
+          <input type="text" name="username" placeholder="username" pattern="[a-zA-Z0-9]+" minlength="3" maxlength="32"
+            id="usernameTxtInput" required></input>
           <label for="username">
             <i class="fa-solid fa-user"></i>
           </label>
