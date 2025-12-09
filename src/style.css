@@ -106,6 +106,13 @@ h1 {
   transition-timing-function: ease-in-out;
 }
 
+#loginUsernameInput,
+#loginPasswordInput {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
 .signup_title.section {
   display: flex;
   flex-direction: row-reverse;
