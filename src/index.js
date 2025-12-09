@@ -44,7 +44,7 @@ function con(obj) {
   }
 
   // Source - https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript
-  if (typeof obj === "object" && !Array.isArray(obj) && x !== null) {
+  if (typeof obj === "object" && !Array.isArray(obj) && obj !== null) {
     console.dir(obj);
     return;
   }
