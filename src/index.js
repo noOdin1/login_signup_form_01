@@ -14,6 +14,10 @@ import {
   createSelect,
   createOption,
 } from "./element_creator.js";
+import {
+  removeAllChildElemByClass,
+  removeAllChildElemById,
+} from "./removeAllChildElem.js";
 
 let loginLnk = document.getElementById("loginLink");
 let signupLnk = document.getElementById("signupLink");
