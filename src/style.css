@@ -217,8 +217,13 @@ button:hover {
 #loginLink,
 #signupLink {
   font-size: 1.2em;
-  /* color: var(--textColor); */
-  color: black;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+#loginLink:hover,
+#signupLink:hover {
+  text-decoration: underline;
 }
 
 .signup_switch_section {
