@@ -1,6 +1,5 @@
 /* index.js - login_signup_form_01 */
 import "./style.css";
-// import "./element_creator.js";
 import {
   elementFactory,
   createP,
