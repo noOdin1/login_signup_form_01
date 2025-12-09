@@ -186,9 +186,9 @@ button {
   border: 2px solid black;
   /* box-shadow: 1px 1px 3px 2px; */
   transition-property: box-shadow;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
   transition-delay: 0s;
-  transition-timing-function: ease-in;
+  transition-timing-function: fade-in;
 }
 
   box-shadow: 1px 1px 3px 2px;
