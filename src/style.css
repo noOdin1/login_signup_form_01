@@ -202,7 +202,7 @@ button:hover {
   margin: 0.5em 0;
   font-size: 1.2em;
   font-weight: 600;
-  color: var(--textColor);
+  /* color: var(--textColor); */
 }
 
 #convincingStatement {
