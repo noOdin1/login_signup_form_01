@@ -1,6 +1,20 @@
 /* index.js - login_signup_form_01 */
 import "./style.css";
-import "./element_creator.js";
+// import "./element_creator.js";
+import {
+  elementFactory,
+  createP,
+  createDiv,
+  createButton,
+  createImg,
+  createForm,
+  createFieldset,
+  createLegend,
+  createLabel,
+  createInput,
+  createSelect,
+  createOption,
+} from "./element_creator.js";
 
 let loginLnk = document.getElementById("loginLink");
 let signupLnk = document.getElementById("signupLink");
