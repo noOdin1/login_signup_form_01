@@ -32,7 +32,7 @@ function con(obj) {
   }
 
   /* src: https://stackoverflow.com/questions/4059147/check-if-a-variable-is-a-string-in-javascript */
-  if (typeof obj === "string" || obj instanceof String) {
+  if (typeof obj === "string" && obj instanceof String) {
     console.log(obj);
     return;
   }
