@@ -191,7 +191,10 @@ button {
   transition-timing-function: fade-in;
 }
 
+button:focus,
+button:hover {
   box-shadow: 1px 1px 3px 2px;
+  outline: none;
 }
 
 #convincingStatement,
