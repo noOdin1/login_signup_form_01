@@ -156,3 +156,6 @@ function submitAction(event) {
 
 loginLnk.addEventListener("click", changeForm);
 signupLnk.addEventListener("click", changeForm);
+
+signupSubmitBtn.addEventListener("click", submitAction);
+loginSubmitBtn.addEventListener("click", submitAction);
