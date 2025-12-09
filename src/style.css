@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Trebuchet MS", Tahoma, Arial, san-serif;
   font-size: 16px;
-  /* outline: 1px solid limegreen !important; */
+  outline: 1px solid green !important;
 }
 
 :root {
