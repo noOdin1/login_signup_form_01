@@ -162,7 +162,7 @@ function submitAction(event) {
     if (passwordTxtInput.value !== repeatPasswordTxtInput.value) {
       con("Re-entered password: " + repeatPasswordTxtInput.value);
       errorMsgArray.push.apply(errorMsgArray, [
-        "Error! Password and Re-entered password does not match",
+        "Password and Retype password does not match",
       ]);
     }
     con("Error messages:\n");
