@@ -167,9 +167,12 @@ function submitAction(event) {
     }
     con("Error messages:\n");
     let errorSection = document.getElementById("signupErrorDisplay");
-    // errorMsgArray.forEach((item) => {
-    //   let tmpErrorMsg = createP();
-    // });
+    errorMsgArray.forEach((item) => {
+      let tmpErrorMsg = createP(["error", "messages"]);
+      tmpErrorMsg.innerHTML = item;
+      con(tmpErrorMsg);
+      errorSection.appendChild(tmpErrorMsg);
+    });
   }
 
   if (event.target.id == "loginBtn") {
