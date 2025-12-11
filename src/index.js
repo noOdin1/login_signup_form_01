@@ -137,6 +137,8 @@ function submitAction(event) {
   let errorMsgArray = [];
 
   if (event.target.id == "signupBtn") {
+    let signupErrorDisplay = document.getElementById("signupErrorDisplay");
+    removeAllChildElemById(signupErrorDisplay);
     con("[submitAction] signup submit button pressed");
     if (!usernameTxtInput.checkValidity()) {
       con("[submitAction] username: " + usernameTxtInput.value);
