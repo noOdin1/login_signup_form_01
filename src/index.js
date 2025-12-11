@@ -166,7 +166,6 @@ function submitAction(event) {
       ]);
     }
     con("Error messages:\n");
-    con(errorMsgArray);
     let errorSection = document.getElementById("signupErrorDisplay");
     // errorMsgArray.forEach((item) => {
     //   let tmpErrorMsg = createP();
