@@ -241,3 +241,13 @@ button:hover {
 .login_switch_section {
   padding-left: 0.8em;
 }
+
+.signup_section.error.display {
+  display: flex;
+  flex-direction: column;
+}
+
+.error.messages {
+  color: red;
+  text-align: right;
+}
