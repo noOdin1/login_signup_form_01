@@ -60,7 +60,7 @@ h1 {
   padding: 2em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   opacity: 1;
   /* transform: translateX(100%); */
   transition-property: width, opacity, transform;
@@ -96,7 +96,7 @@ h1 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   opacity: 1;
   padding: 2em;
   box-sizing: border-box;
