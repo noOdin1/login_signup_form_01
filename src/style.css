@@ -37,6 +37,7 @@ h1 {
   margin: auto;
   width: var(--contentContainerWidth);
   height: 100vh;
+  padding-top: 4em;
   background-image: linear-gradient(
     to right,
     var(--bgColor_seethru) 0%,
